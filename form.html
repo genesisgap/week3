@@ -15,26 +15,30 @@
             <legend>personal information</legend>
             <ul>
                 <li>
-                    <label for="fullname">full name</label>
+                    <label for="fullname">full name</label><br>
                     <input type="text" name="name" id="fullname" required>
                 </li>
+                <br>
                 <li>
-                    <label for="email">email address</label>
+                    <label for="email">email address</label><br>
                     <input type="text" name="email" id="email">
                 </li>
+                <br>
                 <li>
-                    <label for="dateOfBirth">date of birth</label>
+                    <label for="dateOfBirth">date of birth</label><br>
                     <input type="date" name="date" id="dateOfBirth">
                 </li>
+                <br>
+                
                 <li>
-                    <label for="phone">phone number</label>
+                    <label for="phone">phone number</label><br>
                     <input type="tel" name="phone" id="phone">
                 </li>
                 <li>
                     <h3>gender</h3>
                     <input type="radio" name="gender" id="male">
                     <label for="male">male</label>
-
+                        <br>
                     <input type="radio" name="gender" id="female" checked>
                     <label for="female">female</label>
                 </li>
@@ -43,10 +47,13 @@
 
                     <input type="radio" name="marital" id="single">
                     <label for="single">single</label>
+                    <br>
                     <input type="radio" name="marital" id="married">
                     <label for="married">married</label>
+                    <br>
                     <input type="radio" name="marital" id="widowed">
                     <label for="widowed">widowed</label>
+                    <br>
                     <input type="radio" name="marital" id="divorced">
                     <label for="divorced">divorced</label>
                 </li>
@@ -106,6 +113,49 @@
             </ul>
         </fieldset>
         <input type="button" value="submit">
+    </form>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sample Form</title>
+</head>
+<body>
+    <h1>Sample Form</h1>
+    <form action="/submit_form" method="post">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br><br>
+        
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age"><br><br>
+        
+        <input type="checkbox" id="subscribe" name="subscribe">
+        <label for="subscribe"> Subscribe to newsletter</label><br><br>
+        
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+        
+        <label for="country">Country:</label><br>
+        <select id="country" name="country">
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="uk">UK</option>
+        </select><br><br>
+        
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+        
+        <input type="submit" value="Submit">
     </form>
 </body>
 </html>
