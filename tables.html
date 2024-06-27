@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food menu</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            padding: 15px;
+            border: 20px solid green;
+            width: 60%;
+            margin: auto;
+        }
+
+        caption{
+                border: 10px solid red;
+                text-transform: uppercase;
+                font-size: 35px;
+                padding-block: 20px;       
+            }
+
+            table tr{
+                border: 5px solid red;
+            }
+
+            table th, table td{
+                border-inline: 10px double skyblue;
+                padding: 20px;
+            }
+
+            table th{
+                text-transform: capitalize;
+            }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>food menu</caption>
+        <!-- (thead>tr>th*4)+(tbody>(tr>th+td*3)*5)+tfoot>tr>td -->
+        <thead>
+            <tr>
+                <th>days/meal </th>
+                <th>breakfast </th>
+                <th>lunch </th>
+                <th>dinner </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>monday </th>
+                <td>yam </td>
+                <td>beans </td>
+                <td>rice </td>
+            </tr>
+            <tr>
+                <th>tuesday </th>
+                <td>eba </td>
+                <td>pap </td>
+                <td>indomie </td>
+            </tr>
+            <tr>
+                <th>wednesday </th>
+                <td>corn </td>
+                <td>bread </td>
+                <td>friedrice </td>
+            </tr>
+            <tr>
+                <th>thusday </th>
+                <td>eggs </td>
+                <td>cakes </td>
+                <td>porriage </td>
+            </tr>
+            <tr>
+                <th>friday </th>
+                <td>ofada </td>
+                <td>peppersoup </td>
+                <td>fish </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>change after each season </td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>

@@ -1,0 +1,99 @@
+p.home{
+    background-color: blueviolet;
+}
+
+p{
+    background-color: crimson;
+}
+
+.home.school{
+    background-color: gray;
+}
+
+p::selection{
+    background-color: green;
+    color: white;
+}
+
+a:visited{
+    color: tomato;
+}
+
+a:hover{
+    color: aqua;
+}
+
+ul li:first-of-type{
+    background-color: aqua;
+}
+
+li:nth-last-of-type(2n+1){
+    background-color: bisque;
+}
+
+li:nth-last-of-type(2n+2){
+    background-color: fuchsia;
+}
+li:nth-last-of-type(3n+2){
+    background-color: palegreen;
+}
+li:nth-last-of-type(n+7){
+    background-color: palegreen;
+}
+
+ul :nth-child(3){
+    background-color: lawngreen;
+}
+
+li#id001{
+    text-transform: uppercase;
+    padding: 30px
+}
+li#id0011{
+    text-transform: uppercase;
+    padding: 30px
+}
+li#id00111{
+    text-transform: uppercase;
+    padding: 30px
+}
+
+
+
+
+
+*{
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+body section h2{
+    border-bottom: 5px solid blue;
+    color: red;
+    }
+
+    body h2{
+        border-bottom: 5px solid green;
+        color: green;
+    }
+
+    html body article > div h2{
+        font-weight: normal;
+        border-bottom: 5px solid red;
+    }
+
+    h2 ~ p {
+        color: violet;
+    }
+
+    h2 + p{
+        color: green;
+    }
+
+    p + p{
+        color: orange;
+    }
+
+    h2 + *{
+
+    }
