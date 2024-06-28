@@ -97,3 +97,12 @@ body section h2{
     h2 + *{
 
     }
+
+    section:nth-child(even) {
+        background-color: fuchsia;
+      }
+      
+      h1 {
+        border: 15px solid blue;
+      }
+      
